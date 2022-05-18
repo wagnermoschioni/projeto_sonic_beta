@@ -1,5 +1,3 @@
-console.log("ooooi")
-
 function handleMouseEnter() {
     this.classList.add('s-card--hovered');
     document.body.id = `${this.id}-hovered`;

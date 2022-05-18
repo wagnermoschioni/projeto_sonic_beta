@@ -1,5 +1,5 @@
-@import url('/projeto_sonic/assets/css/reset.css');
-@import url('/projeto_sonic/assets/css/global.css');
+@import url('/assets/css/reset.css');
+@import url('/assets/css/global.css');
 
 body {
     background-color: var(--primery-color);
@@ -7,7 +7,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url('/projeto_sonic/assets/images/sonic.png');  
+  background-image: url('/assets/images/sonic.png');  
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -132,17 +132,17 @@ transform: scale(1.2);
 }
 
 body#so-kucklesid-hovered::before {
-    background-image: url('/projeto_sonic/assets/images/fundo_02.jpg');
+    background-image: url('/assets/images/fundo_02.jpg');
 }
 
 
 body#so-sonicid-hovered::before {
-    background-image: url('/projeto_sonic/assets/images/fundo_01.jpg');
+    background-image: url('/assets/images/fundo_01.jpg');
 }
 
 
 body#so-tailsid-hovered::before {
-    background-image: url('/projeto_sonic/assets/images/fundo_03.jpg');
+    background-image: url('/assets/images/fundo_03.jpg');
 }
 
 body[id^="so-"]::before {
